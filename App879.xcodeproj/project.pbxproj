@@ -33,6 +33,9 @@
 		78EB5BA02D00A6B300B7ECCC /* AddProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5B9F2D00A6B300B7ECCC /* AddProfile.swift */; };
 		78EB5BA62D01FC1200B7ECCC /* AddMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5BA52D01FC1200B7ECCC /* AddMatch.swift */; };
 		78EB5BA92D021AB200B7ECCC /* MatchDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EB5BA82D021AB200B7ECCC /* MatchDetail.swift */; };
+		78F027BB2D148AA300DFADF7 /* Dnwrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F027BA2D148AA300DFADF7 /* Dnwrt.swift */; };
+		78F027BD2D148AAF00DFADF7 /* Souka.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F027BC2D148AAF00DFADF7 /* Souka.swift */; };
+		78F027BF2D148ABC00DFADF7 /* Wenersi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F027BE2D148ABC00DFADF7 /* Wenersi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		78EB5B9F2D00A6B300B7ECCC /* AddProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfile.swift; sourceTree = "<group>"; };
 		78EB5BA52D01FC1200B7ECCC /* AddMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMatch.swift; sourceTree = "<group>"; };
 		78EB5BA82D021AB200B7ECCC /* MatchDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetail.swift; sourceTree = "<group>"; };
+		78F027BA2D148AA300DFADF7 /* Dnwrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dnwrt.swift; sourceTree = "<group>"; };
+		78F027BC2D148AAF00DFADF7 /* Souka.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Souka.swift; sourceTree = "<group>"; };
+		78F027BE2D148ABC00DFADF7 /* Wenersi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wenersi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +149,9 @@
 				78EB5B702CFDF35500B7ECCC /* DateConvert.swift */,
 				78EB5B722CFDF35A00B7ECCC /* Array.swift */,
 				78EB5B742CFDF36200B7ECCC /* CoreModel.xcdatamodeld */,
+				78F027BA2D148AA300DFADF7 /* Dnwrt.swift */,
+				78F027BC2D148AAF00DFADF7 /* Souka.swift */,
+				78F027BE2D148ABC00DFADF7 /* Wenersi.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -344,9 +353,12 @@
 				78EB5B9D2D00772500B7ECCC /* ProfileViewModel.swift in Sources */,
 				78EB5B852CFDF3D000B7ECCC /* Reviews.swift in Sources */,
 				78EB5B812CFDF3C500B7ECCC /* R3.swift in Sources */,
+				78F027BD2D148AAF00DFADF7 /* Souka.swift in Sources */,
+				78F027BF2D148ABC00DFADF7 /* Wenersi.swift in Sources */,
 				78EB5B872CFDF3D500B7ECCC /* Not.swift in Sources */,
 				78EB5B8C2CFDF3F900B7ECCC /* LoadingView.swift in Sources */,
 				78EB5BA62D01FC1200B7ECCC /* AddMatch.swift in Sources */,
+				78F027BB2D148AA300DFADF7 /* Dnwrt.swift in Sources */,
 				78EB5B712CFDF35500B7ECCC /* DateConvert.swift in Sources */,
 				78EB5BA02D00A6B300B7ECCC /* AddProfile.swift in Sources */,
 			);
@@ -496,7 +508,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App879;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -535,7 +547,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App879;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

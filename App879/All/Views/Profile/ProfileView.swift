@@ -120,7 +120,13 @@ struct ProfileView: View {
                             .background(RoundedRectangle(cornerRadius: 12).fill(Color("bg3")))
                         })
                         
-                        Button(action: {}, label: {
+                        Button(action: {
+                            
+                            guard let url = URL(string: "https://www.termsfeed.com/live/488569b2-336d-4a94-9585-2b7c353b1577") else { return }
+                            
+                            UIApplication.shared.open(url)
+                            
+                        }, label: {
                             
                             VStack(spacing: 9) {
                                 
